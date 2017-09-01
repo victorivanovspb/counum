@@ -2,6 +2,6 @@
 
 [https://translate.google.com/#is/ru/counum](https://translate.google.com/#is/ru/counum)
 
-### Also required:
+### Системные требования:
   - Bootstrap 4
   - JQuery
