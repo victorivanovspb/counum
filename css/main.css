@@ -1,0 +1,58 @@
+
+#ce {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    margin-top: -0px;
+    margin-left: -150px;
+    width: 300px;
+    height: 300px;
+}
+
+#ce div {
+    width: 300px;
+    margin: 0;
+    padding: 0;
+}
+
+#ce div div {
+    border: 0;
+    display: inline-block;
+    margin: 0 -4px 0 0;
+    padding: 0 2px 0 2px;
+}
+
+#ce div div.bt33 {
+    width: 33%;
+}
+
+#ce div div.bt66 {
+    width: 66%;
+}
+
+#ce div div.ce-answer {
+
+    border: 1px solid gray;
+    font-size: 1.2em;
+
+    margin-bottom: 10px;
+    /*width: 100%;*/
+    text-align: center;
+}
+
+#ce div div.ce-answer-remove {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: -30px;
+    top: 0;
+    border: 1px solid red;
+}
+
+#ce div div.ce-formula {
+    font-size: 1.5em;
+
+    margin-bottom: 5px;
+    width: 100%;
+    text-align: center;
+}
