@@ -31,16 +31,27 @@
 }
 
 #ce div div.ce-answer {
+
+    border: 1px solid gray;
     font-size: 1.2em;
 
     margin-bottom: 10px;
-    width: 100%;
+    /*width: 100%;*/
     text-align: center;
+}
+
+#ce div div.ce-answer-remove {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: -30px;
+    top: 0;
+    border: 1px solid red;
 }
 
 #ce div div.ce-formula {
     font-size: 1.5em;
-    
+
     margin-bottom: 5px;
     width: 100%;
     text-align: center;
