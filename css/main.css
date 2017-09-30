@@ -38,6 +38,10 @@ div.container div {
     padding-top: 0px;
 }
 
+#hst li:nth-child(5n) {
+    background: #ddd;
+}
+
 #input-inp {
     border: 1px solid gray;
     width: 100%;
