@@ -1,58 +1,47 @@
-
-#ce {
-    position: absolute;
-    top: 0%;
-    left: 50%;
-    margin-top: -0px;
-    margin-left: -150px;
-    width: 300px;
-    height: 300px;
+body {
+    background: #eee;
 }
 
-#ce div {
-    width: 300px;
-    margin: 0;
-    padding: 0;
-}
-
-#ce div div {
-    border: 0;
-    display: inline-block;
-    margin: 0 -4px 0 0;
-    padding: 0 2px 0 2px;
-}
-
-#ce div div.bt33 {
-    width: 33%;
-}
-
-#ce div div.bt66 {
-    width: 66%;
-}
-
-#ce div div.ce-answer {
-
-    border: 1px solid gray;
-    font-size: 1.2em;
-
-    margin-bottom: 10px;
-    /*width: 100%;*/
-    text-align: center;
-}
-
-#ce div div.ce-answer-remove {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    right: -30px;
-    top: 0;
-    border: 1px solid red;
-}
-
-#ce div div.ce-formula {
-    font-size: 1.5em;
-
-    margin-bottom: 5px;
+div.container {
+    display: flex;
+    flex-direction: column;
     width: 100%;
+}
+
+div.container div {
+    margin: auto;
+    width: 500px;
+}
+
+#tsk {
     text-align: center;
+    font-size: 1.4em;
+    margin-bottom: 8px;
+}
+
+#hst {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#hst ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#hst li {
+    padding: 3px;
+}
+
+#hst li:first-child {
+    padding-top: 0px;
+}
+
+#input-inp {
+    border: 1px solid gray;
+    width: 100%;
+    padding: 8px;
+    text-align: center;
+    box-sizing: border-box;
 }
