@@ -1,7 +1,12 @@
 function logEntry(message) {
-    $('#hst')
-        .find('ul.log li:eq(0)')
-        .before(`<li>${message}</li>`);
+    let $sel = $('#hst').find('ul.log');
+    let html = `<li>${message}</li>`;
+    if ($sel.find('li').length > 0) {
+        $sel.find('li:eq(0)')
+            .before(html);
+    } else {
+        $sel.append(html);
+    }
 }
 
 function genNewTask() {
